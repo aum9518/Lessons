@@ -1,8 +1,15 @@
 public class Main {
     public static void main(String[] args) {
+        Notebook notebook = new Notebook();
+        notebook.brand="Samsung";
+        notebook.memory=256;
+        notebook.type="Notebook";
+        notebook.year=2021;
+        Notebook macbook = new Notebook();
+
+
         samsung();
         iphone();
-
     }
     static void iphone(){
         System.out.println("\033[31mIphone\033[0m");
