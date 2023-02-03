@@ -1,6 +1,7 @@
 public class Main {
     public static void main(String[] args) {
-        Notebook notebook = new Notebook();
+        //TODO phone
+     /*   Notebook notebook = new Notebook();
         notebook.brand="Samsung";
         notebook.memory=256;
         notebook.type="Notebook";
@@ -9,9 +10,12 @@ public class Main {
 
 
         samsung();
-        iphone();
-    }
-    static void iphone(){
+        iphone();*/
+        Square square = new Square();
+        square.square1();
+
+
+ /*   static void iphone(){
         System.out.println("\033[31mIphone\033[0m");
         Phone iphone = new Phone();
         iphone.name = "iphone 13pro";
@@ -28,5 +32,12 @@ public class Main {
         samsung.color="black";
         samsung.battery=100;
         System.out.println(samsung.name+"\n"+samsung.price+"\n"+samsung.color+"\n"+samsung.battery);
+    }
+*/
+        Kurs kurs1 = new Kurs();
+
+        Student student1 = new Student();
+
+
     }
 }
