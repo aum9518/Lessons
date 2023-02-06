@@ -3,6 +3,7 @@ public class Square {
     private int b;
     private int c;
     private int d;
+
     public void setA(int a){
         this.a=a;
     }public void setB(int b){
